@@ -1,0 +1,185 @@
+body { padding-top: 70px; background-color: #f1eee7; }
+#main { background-color: #fff; min-height: 600px; }
+#footer { border-top: 1px dashed #ccc; padding-top: 5px; color: #999; margin-top: 10px; }
+.pagination { margin-top: 0; }
+
+#schedule table tbody tr {
+  background-color: #F8F8F0;
+}
+#schedule td.used {
+  background-color: rgba(52, 191, 30, 0.5);
+  cursor: pointer;
+}
+#schedule td.separator {
+  border-left: 7px solid #bf0c14;
+}
+
+/*------------------------
+ * styles for login page
+ *------------------------*/
+body#login-page { padding: 0; position: relative; }
+.login-form { position: absolute; left: 50%; top: 50%; margin-left: -125px; margin-top: 185px; padding: 15px 20px 20px 15px; width: 250px; background: #fff; font-size: 14px; box-shadow: 0 0 41px rgba(0, 0, 0, .3), 0 4px 0 rgba(255, 255, 255, .8), 0 5px 0 rgba(100, 100, 100, 0.4), 0 8px 0 rgba(255, 255, 255, .4), inset 0 0 5px rgba(255, 255, 255, .1); }
+.login-form h1 { color: #333; font-size: 20px; text-align: center; font-weight: bold; }
+.login-form .item { margin-bottom: 10px; }
+.login-form .item input { width: 100%; display: inline-block; padding: 0 5px; border: 1px solid #d3d3d3; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset; font-size: 14px; line-height: 31px; height: 31px; }
+.login-form span { line-height: 30px; }
+.login-form button { float: right; }
+.tip {
+  margin: 20px auto 10px;
+  padding: 6px 10px;
+  background: #fff59b;
+  text-align: center;
+  font-size: 14px;
+}
+
+/*------------------------
+ * styles for admin page
+ *------------------------*/
+table.rest-table td.icon-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+img.rest-img {
+  width: 50px;
+  height: 50px;
+}
+img.rest-img-large {
+  width: 150px;
+  height: 150px;
+}
+
+/*------------------------
+ * styles for order table
+ *------------------------*/
+.order-table a:hover {
+  cursor: pointer;
+}
+.order-table thead th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #fff;
+  background: #f5f5f5;
+  background: -moz-linear-gradient(top, #f5f5f5 0%, #e2e2e2 100%);
+  background: -webkit-linear-gradient(top, #f5f5f5 0%, #e2e2e2 100%);
+  background: -ms-linear-gradient(top, #f5f5f5 0%, #e2e2e2 100%);
+  background: linear-gradient(top, #f5f5f5 0%, #e2e2e2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#e2e2e2', GradientType=0);
+}
+.order-table ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.order-table .label {
+  font-size: 14px;
+}
+
+/*------------------------
+ * styles for order model
+ *------------------------*/
+#order-model .label {
+  font-size: 14px;
+}
+#order-model .modal-footer {
+  margin: 0;
+}
+#order-model td:first-child {
+  text-align: right;
+  font-weight: bold;
+  width: 30%;
+}
+
+#order-model .dishes {
+  position:relative;
+  background-color:#faf8e5;
+  border:1px solid #e3e3e3;
+}
+#order-model .dishes ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+#order-model .dishes ul.lines {
+  margin: 0px 20px 5px;
+}
+#order-model .dishes ul.lines li {
+  height:28px;
+  line-height:28px;
+  font-size:16px;
+  border-top:1px solid #f2f0df;
+  padding:0 20px;
+}
+#order-model .dishes ul.lines li:nth-child(1) {
+  text-align: center;
+  font-weight: bold;
+  color: darkGoldenrod;
+}
+#order-model .dishes ul.lines li:nth-last-child(1){
+  font-weight: bold;
+  text-align: right;
+  color: #555;
+}
+
+/*------------------------
+ * styles for data editor
+ *------------------------*/
+.data-editor-header, .data-editor-footer{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.data-editor-header li, .data-editor-footer li {
+  display: inline-block;
+  width: 220px;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.data-editor-header li {
+  color: #333;
+  background-color: #BFEEC9;
+  border-radius: 4px;
+  text-align: center;
+}
+.data-editor-footer {
+  margin-top: 5px;
+}
+.data-editor-footer button {
+  font-size: 16px;
+  padding: 1px 10px;
+}
+.data-editor-row {
+  height: 30px;
+}
+.data-editor-input {
+  color: #333 !important;
+  padding: 5px 5px 2px 5px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: solid thin #999 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  margin-right: 10px !important;
+  width: 220px !important;
+}
+a.data-editor-remove {
+  color: #666;
+  cursor: pointer;
+}
+a.data-editor-remove:hover {
+  color: #333;
+}
+a.data-editor-remove span {
+  vertical-align: bottom;
+}
+
+
+
+
+
+
+
+
+

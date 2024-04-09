@@ -1,0 +1,32 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": ">=0.8.0",
+    "baidupush": "latest",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dateformat": "1.0.7-1.2.3",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "gm": ">=1.9.0",
+    "google-places": "latest",
+    "iz": ">=0.4.1",
+    "jwt-simple": "latest",
+    "mkdirp": "latest",
+    "morgan": "^1.10.0",
+    "multiparty": ">=3.2.4",
+    "mysql": ">=2.2.0",
+    "node-uuid": ">=1.4.1",
+    "passport": "latest",
+    "passport-http-bearer": "latest",
+    "redis": "latest",
+    "underscore": ">=1.6.0"
+  }
+}
