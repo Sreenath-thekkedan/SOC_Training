@@ -42,12 +42,13 @@
     ?>
 
     <!-- Add download link for PDF payslip -->
-    <a href="generate_payslip.php" download>Download Payslip for January(PDF)</a>
-    <a href="generate_payslip.php" download>Download Payslip for February(PDF)</a>
-    <a href="generate_payslip.php" download>Download Payslip for March(PDF)</a>
-    <a href="generate_payslip.php" download>Download Payslip for April(PDF)</a>
-    <a href="generate_payslip.php" download>Download Payslip for May(PDF)</a>
+    <a href="generate_payslip.php?month=january" download>Download Payslip for January (PDF)</a>
+    <a href="generate_payslip.php?month=february" download>Download Payslip for February (PDF)</a>
+    <a href="generate_payslip.php?month=march" download>Download Payslip for March (PDF)</a>
+    <a href="generate_payslip.php?month=april" download>Download Payslip for April (PDF)</a>
+    <a href="generate_payslip.php?month=may" download>Download Payslip for May (PDF)</a>
 
-    <!-- Add additional content or functionality here -->
+
+
 </body>
 </html>
