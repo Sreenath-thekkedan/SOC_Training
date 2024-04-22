@@ -1,0 +1,16 @@
+{
+  "name": "cart-node",
+  "version": "1.0.0",
+  "description": "A Node.js API for placing orders into an SQL database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
