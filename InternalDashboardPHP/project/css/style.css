@@ -133,3 +133,89 @@
    font-size: 20px;
    padding:10px;
 }
+/* Resetting default margin and padding */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f8f8;
+}
+
+/* Styling recipe container */
+.recipe_container {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling recipe content */
+.recipe_content {
+   text-align: center;
+}
+
+.recipe_content h1 {
+   margin-bottom: 20px;
+}
+
+.recipe_content p {
+   margin-bottom: 30px;
+}
+
+/* Styling recipe groups */
+.recipe-group {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+/* Styling recipe widget */
+.recipe-widget {
+   flex: 0 0 48%; /* Adjust width here */
+   background-color: #f9f9f9;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-widget h3 {
+   margin-bottom: 10px;
+   color:crimson ;
+}
+
+.recipe-widget a.btn {
+   display: inline-block;
+   padding: 8px 16px;
+   background-color: black;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.recipe-widget a.btn:hover {
+   background-color: crimson;
+}
+
+/* Styling buttons */
+.btn {
+   display: inline-block;
+   padding: 8px 16px;
+   margin-right: 10px;
+   background-color: #000000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+   background-color: crimson;
+}
