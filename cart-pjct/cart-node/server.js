@@ -28,6 +28,12 @@ db.connect((err) => {
   console.log('Connected to database');
 });
 
+
+app.get('/unauthorised', (req, res) => {
+  res.status(403).send('Access to this page is forbidden!!!! Go check the main page and order something!! 😋  ');
+});
+
+
 //Route to place an order
 app.post('/place-order', (req, res) => {
   const {  cardNumber, expiryDate, cvv } = req.body;

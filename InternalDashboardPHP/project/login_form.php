@@ -36,6 +36,7 @@ if(isset($_POST['submit'])){
       }
      
    }else{
+      http_response_code(401);
       $error[] = 'incorrect email or password!';
    }
 

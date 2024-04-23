@@ -9,6 +9,7 @@ import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
 import { ShopContextProvider } from './context/shopContext';
 import Checkout from './pages/checkout/Checkout';
+import UnauthorisedPage from './pages/checkout/UnauthorisedPage';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/unauthorised" element={<UnauthorisedPage />} />
           </Routes>
         </Router>
       </ShopContextProvider>
