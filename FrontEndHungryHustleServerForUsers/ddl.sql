@@ -128,19 +128,11 @@ DROP TABLE IF EXISTS `orders`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `orders` (
-  `o_id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `o_rest_id` bigint(20) NOT NULL,
-  `o_cust_id` bigint(20) NOT NULL,
-  `o_totalprice` decimal(10,2) NOT NULL,
-  `o_num_people` tinyint(4) NOT NULL,
-  `o_request_date` date NOT NULL,
-  `o_start_time` tinyint(4) NOT NULL,
-  `o_end_time` tinyint(4) NOT NULL,
-  `o_table_number` int(11) NOT NULL DEFAULT '0',
-  `o_status` tinyint(4) NOT NULL,
-  `o_created_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `o_updated_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  PRIMARY KEY (`o_id`)
+  `sNo` int(20) NOT NULL AUTO_INCREMENT,
+  `cardNumber` bigint(20) NOT NULL,
+  `expiryDate` int(20) NOT NULL,
+  `cvv` int(10,2) NOT NULL,
+  PRIMARY KEY (`sNo`)
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
